@@ -1,0 +1,14 @@
+{
+    "Content": {
+        "hi": "Hoşgeldiniz",
+        "title": "Merhaba, Ben Doğan MERDEN",
+        "work": "Uluslararası bir sirkette frontend geliştiricisi olarak çalışıyorum"
+    },
+    "Header": {
+        "enBtn": "İngilizce",
+        "trBtn": "Türkçe",
+        "homeBtn": "Anasayfa",
+        "nameBtn": "İsim",
+        "workBtn": "Meslek"
+    }
+}

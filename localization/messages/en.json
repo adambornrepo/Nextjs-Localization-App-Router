@@ -1,0 +1,14 @@
+{
+    "Content": {
+        "hi": "Welcome",
+        "title": "Hi, I am Dogan MERDEN",
+        "work": "Working as a frontend developer at an international company"
+    },
+    "Header": {
+        "enBtn": "English",
+        "trBtn": "Turkish",
+        "homeBtn": "Home",
+        "nameBtn": "Name",
+        "workBtn": "Work"
+    }
+}

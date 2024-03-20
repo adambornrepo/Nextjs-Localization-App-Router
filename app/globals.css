@@ -30,4 +30,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  a {
+    @apply w-[100px] flex justify-center items-center;
+  }
 }
