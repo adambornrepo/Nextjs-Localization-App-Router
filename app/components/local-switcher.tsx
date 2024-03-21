@@ -9,10 +9,16 @@ export default function LocaleSwitcher() {
 
   return (
     <div className="flex gap-2 items-center ">
-        <div className="">
-      <Image src={`/locale/${locale}.png`} alt={locale} width={24} height={24} className="aspect-square"/>
-        </div>
-      <LocaleSwitcherSelect defaultValue={locale} label={t("label")} >
+      <div className="">
+        <Image
+          src={`/locale/${locale}.png`}
+          alt={locale}
+          width={24}
+          height={24}
+          className="aspect-square"
+        />
+      </div>
+      <LocaleSwitcherSelect defaultValue={locale} label={t("label")}>
         {locales.map((cur) => (
           <option key={cur} value={cur}>
             {t("locale", { locale: cur })}

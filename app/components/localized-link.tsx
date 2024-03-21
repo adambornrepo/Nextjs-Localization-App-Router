@@ -6,7 +6,7 @@ import { ComponentProps } from "react";
 import type { AppPathnames } from "@/localization/config";
 import { Link } from "@/localization/navigation";
 
-export default function InternalLink<Pathname extends AppPathnames>({
+export default function LocalizedLink<Pathname extends AppPathnames>({
   href,
   className,
   ...rest
