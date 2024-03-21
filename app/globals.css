@@ -34,4 +34,12 @@ body {
   a {
     @apply w-[100px] flex justify-center items-center;
   }
+
+  .nav-link {
+    @apply bg-sky-600 font-semibold p-3 hover:bg-sky-500 active:bg-sky-800 transition;
+  }
+}
+
+.active-link {
+  background-color: rgb(165, 55, 22) !important;
 }
